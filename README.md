@@ -17,10 +17,11 @@ The location of maximum was considered as the appropriate number of clusters. Th
 Using Hierarchical clustering full dataset with complete linkage with Euclidian dissimilarity measure, we can see that all animal locations spread to different clusters. On the other hand, using the Manhattan distance as the dissimilarity measure, we get different cluster composition with the same number of clusters. For example: With Euclidian distance, 7 observations are spread for Bermuda location while with Manhattan distance, 9 observations are spread over Bermuda. Moreover, cutting the tree at height at 15 gives only 2 clusters while with the Manhattan distance we get 18 clusters. Thus, the dendrogram obtained using Manhattan dissimilarity measure is longer than with Euclidian dissimilarity measure.
 
 
-![image](https://user-images.githubusercontent.com/72771903/113496360-341fae80-953c-11eb-9506-bac322643a97.png)
 **Dendogram with complete linkage method and Euclidean dissimilarity measure**
+![image](https://user-images.githubusercontent.com/72771903/113496430-db9ce100-953c-11eb-8f8b-f37c696c18b2.png)
 
 
-![image](https://user-images.githubusercontent.com/72771903/113496289-83191400-953b-11eb-9b08-e19db57d81a1.png)
 **Dendogram with complete linkage method and Manhattan dissimilarity measure**
+![image](https://user-images.githubusercontent.com/72771903/113496439-ec4d5700-953c-11eb-94b9-6860c6cbe512.png)
+
 
