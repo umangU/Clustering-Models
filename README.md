@@ -18,7 +18,7 @@ Using Hierarchical clustering full dataset with complete linkage with Euclidian 
 
 **Dendogram with complete linkage method and Euclidean dissimilarity measure**
 
-![image](https://user-images.githubusercontent.com/72771903/113496271-595fed00-953b-11eb-931a-5b2918689f41.png)
+![image](https://user-images.githubusercontent.com/72771903/113496360-341fae80-953c-11eb-9506-bac322643a97.png)
 
 
 **Dendogram with complete linkage method and Manhattan dissimilarity measure**
