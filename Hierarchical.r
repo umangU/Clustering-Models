@@ -1,7 +1,5 @@
-#setting the appropriate directory
-setwd("D:/Documents/UNE/Trimester-4/STAT430 - StatisticalLearning/Assignment-4")
 #reading the snails dataset
-snails <- read.csv("STAT330430_snails_update.csv")
+snails <- read_xlsx(file.choose())
 #storing the location variable values
 snails_loc <- snails$Location
 #scaling the quantitative data
