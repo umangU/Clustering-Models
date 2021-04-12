@@ -6,13 +6,12 @@ snails <- read_xlsx(file.choose())
 snails$Location=as.numeric(snails$Location)
 #scaling the data
 sd.data=scale(snails)
-#creating variables to store mean silhouette values and the number of
-clusters respectively
+#creating variables to store mean silhouette values and the number of clusters respectively
 cluster_ss = vector(,15)
 k_values = vector(,15)
 k.max = 15
 sil <- rep(0, k.max)
-#loop through different values of k
+#looping through different values of k
 for(i in 2:k.max)
 {
  #k-means algorithm for k=i
