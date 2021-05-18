@@ -1,17 +1,17 @@
-#Importing the cluster library
+# Importing the cluster library
 library(cluster)
-#Reading the snails dataset
+# Reading the snails dataset
 snails <- read_xlsx(file.choose())
-#Converting the location variable to numeric
+# Converting the location variable to numeric
 snails$Location=as.numeric(snails$Location)
-#Scaling the data
+# Scaling the data
 sd.data=scale(snails)
-#Ceating variables to store mean silhouette values and the number of clusters respectively
+# Ceating variables to store mean silhouette values and the number of clusters respectively
 cluster_ss = vector(,15)
 k_values = vector(,15)
 k.max = 15
 sil <- rep(0, k.max)
-#Looping through different values of k
+# Looping through different values of k
 for(i in 2:k.max)
 {
  # K-means algorithm for k=i
