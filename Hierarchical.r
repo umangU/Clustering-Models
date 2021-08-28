@@ -1,4 +1,4 @@
- #Reading the snails dataset
+  #Reading the snails dataset
 snails <- read_xlsx(file.choose())
 # Storing the location variable values
 snails_loc <- snails$Location
