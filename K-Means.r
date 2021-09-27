@@ -1,4 +1,4 @@
-#Importing the cluster library
+# Importing the cluster library
 library(cluster)
 #Reading the snails dataset
 snails <- read_xlsx(file.choose())
