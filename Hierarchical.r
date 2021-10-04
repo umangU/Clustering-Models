@@ -6,7 +6,7 @@ snails_loc <- snails$Location
 sd.data = scale(snails[2:10])
 #Getting the matrix from the scaled data with euclidian dissimilarity measure
 data.dist=dist(sd.data)
-# Hierarchical clustering for 3 different methods
+#Hierarchical clustering for 3 different methods
 hc.complete=hclust(data.dist, method="complete")
 # Plot dendograms for all three methods
 plot(hc.complete, main="Complete Linkage", xlab="", sub="",cex=.9)
