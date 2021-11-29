@@ -2,7 +2,7 @@
 library(cluster)
 # Reading the snails dataset
 snails <- read_xlsx(file.choose())
-# Converting the location variable to numeric
+#Converting the location variable to numeric
 snails$Location=as.numeric(snails$Location)
 # Scaling the data
 sd.data=scale(snails)
