@@ -4,7 +4,7 @@ snails <- read_xlsx(file.choose())
 snails_loc <- snails$Location
 # Scaling the quantitative data
 sd.data = scale(snails[2:10])
-#Getting the matrix from the scaled data
+# Getting the matrix from the scaled data
 data.dist=dist(sd.data, method="manhattan")
 # Hierarchical clustering for 3 different methods
 hc.complete=hclust(data.dist, method="complete")
