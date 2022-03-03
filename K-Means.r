@@ -1,6 +1,6 @@
-#Importing the cluster library
+# Importing the cluster library
 library(cluster)
-#Reading the snails dataset
+# Reading the snails dataset
 snails <- read_xlsx(file.choose())
 #Converting the location variable to numeric
 snails$Location=as.numeric(snails$Location)
