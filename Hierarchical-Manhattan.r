@@ -11,6 +11,6 @@ hc.complete=hclust(data.dist, method="complete")
 # Plot dendograms for all three methods
 plot(hc.complete, main="Complete Linkage", xlab="", sub="",cex=.9)
 abline(h=15, col="red")
-# Cutting the tree
+#Cutting the tree
 hc.clusters=cutree(hc.complete,15)
 table(hc.clusters,snails_loc)
