@@ -24,6 +24,6 @@ plot(1:k.max, sil, type = "b", pch = 19, frame = FALSE, xlab = "Number of cluste
 abline(v = which.max(sil), lty = 2)
 # K-means algorithm with the best value of k
 km.final=kmeans(snails,15,nstart=50)
-# Getting within sum of squares
+#Getting within sum of squares
 km.final$tot.withinss
 km.final
