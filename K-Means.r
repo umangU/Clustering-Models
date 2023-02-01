@@ -14,7 +14,7 @@ sil <- rep(0, k.max)
 # Looping through different values of k
 for(i in 2:k.max)
 {
- # K-means algorithm for k=i
+ #K-means algorithm for k=i
  km.out=kmeans(snails,i,nstart=50)
  ss <- silhouette(km.out$cluster, dist(snails))
  sil[i] <- mean(ss[, 3])
